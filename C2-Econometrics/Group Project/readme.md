@@ -1,7 +1,7 @@
-#Submission 1: Basic Statistics, Linear Regression, and Univariate Analysis
+# Submission 1: Basic Statistics, Linear Regression, and Univariate Analysis
 This submission requires you to implement linear regression in forecasting and analysis. Linear regression represents a basic econometric tool and it is the starting point for a variety of prediction models such as ARMA and non-linear algorithms. You will also use the Box-Jenkins approach for selecting the optimal parameters of ARMA forecasting model. Exogenous variables, which improve model forecasts, must be indicated at the end of this submission, to combine with finance theory and research.
 
-##Basic Statistics
+## Basic Statistics
 Download JP Morgan stock historical prices from Yahoo Finance with the following characteristics:
   o Period:February1,2018–December30,2018
   o Frequency:Daily
@@ -17,7 +17,7 @@ Using the same data above, calculate the following in Excel (you can use OpenOff
   4. Show JP Morgan stock price evolution using a scatter plot
   5. Add a trendline to the graph (trendline options – linear)
 
-##Linear Regression
+## Linear Regression
   1. Implement a two-variable regression in R language using the following data: o Explainedvariable:JPMorganstock(adjustedcloseprice)
     o Explanatoryvariable:S&P500
     o Period:February1,2018–December30,2018
@@ -25,7 +25,7 @@ Using the same data above, calculate the following in Excel (you can use OpenOff
   2. With the same variables as above (JP Morgan Stock and S&P500), implement a two-
 variable regression in Excel using LINEST function and Analysis ToolPak. 
 
-##Univariate Time Series
+## Univariate Time Series
 Download the following data:
   o Datasource:https://fred.stlouisfed.org/series/CSUSHPISA
   o Periodconsideredintheanalysis:January1987–latestdata 
@@ -37,7 +37,7 @@ With this data, do the following using R or Python languages:
   4. Forecast the future evolution of Case-Shiller Index using the ARMA model. Test model using in-sample forecasts.
 Write a report where you research and suggest types of exogenous variables that can improve forecasts. In your references, indicate four (4) research articles or books at minimum.
 
-##Submission Requirements
+## Submission Requirements
 Submit the following documents for your assignment:
   • A 500-word report in PDF format, must be separate from the other documents
   • Excel spreadsheets
